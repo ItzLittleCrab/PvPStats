@@ -1,0 +1,16 @@
+# English language file - CrabPvPStats
+
+gui:
+  title: "&6My PvP Stats"
+  title-other: "&6%player%'s PvP Stats"
+  kills: "&aKills"
+  deaths: "&cDeaths"
+  kdr: "&eKDR"
+  killstreak: "&dKillstreak"
+  best-killstreak: "&5Best Killstreak"
+
+command:
+  no-permission: "&cYou don't have permission to use this command."
+  player-not-found: "&cPlayer %player% not found."
+  usage: "&eUsage: /stats [player]"
+  error: "&cAn error occurred while querying data."

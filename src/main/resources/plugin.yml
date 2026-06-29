@@ -1,0 +1,22 @@
+name: CrabPvPStats
+version: '1.0.0'
+main: cn.ngranked.crabpvpstatus.Crabpvpstatus
+api-version: '1.21'
+softdepend: [PlaceholderAPI]
+
+commands:
+  stats:
+    description: 查看 PvP 统计数据
+    usage: /<command> [player]
+    permission: crabpvpstats.stats
+
+permissions:
+  crabpvpstats.stats:
+    description: 允许使用 /stats 指令
+    default: true
+  crabpvpstats.stats.others:
+    description: 允许查看其他玩家的数据
+    default: op
+  crabpvpstats.admin:
+    description: 管理权限
+    default: op

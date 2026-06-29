@@ -1,0 +1,16 @@
+# 中文语言文件 - CrabPvPStats
+
+gui:
+  title: "&6我的 PvP 数据"
+  title-other: "&6%player% 的 PvP 数据"
+  kills: "&a击杀数"
+  deaths: "&c死亡数"
+  kdr: "&eKDR"
+  killstreak: "&d当前连杀"
+  best-killstreak: "&5最佳连杀"
+
+command:
+  no-permission: "&c你没有权限使用此指令。"
+  player-not-found: "&c未找到玩家 %player%。"
+  usage: "&e用法: /stats [player]"
+  error: "&c查询数据时发生错误。"

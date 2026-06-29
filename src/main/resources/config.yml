@@ -1,0 +1,13 @@
+# CrabPvPStats 配置文件
+
+# 语言设置: zh-cn / us-en / auto (根据客户端语言自动检测)
+language: auto
+
+# 是否允许玩家查看自己的数据
+allow-self-stats: true
+
+# 是否允许玩家查看其他玩家的数据
+allow-other-stats: true
+
+# 排行榜显示数量
+top-players-count: 10
