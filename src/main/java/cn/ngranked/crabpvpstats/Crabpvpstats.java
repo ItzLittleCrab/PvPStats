@@ -1,6 +1,8 @@
 package cn.ngranked.crabpvpstats;
 
 import cn.ngranked.crabpvpstats.api.impl.CrabPvPStatsAPIImpl;
+import cn.ngranked.crabpvpstats.command.AdminCommand;
+import cn.ngranked.crabpvpstats.command.AdminTabCompleter;
 import cn.ngranked.crabpvpstats.command.StatsCommand;
 import cn.ngranked.crabpvpstats.config.ConfigManager;
 import cn.ngranked.crabpvpstats.config.MessageManager;
@@ -54,6 +56,9 @@ public final class Crabpvpstats extends JavaPlugin {
         // 7. 注册指令
         StatsCommand statsCommand = new StatsCommand(statsManager, configManager, messageManager, statsGUI);
         getCommand("stats").setExecutor(statsCommand);
+        AdminCommand adminCommand = new AdminCommand(statsManager, configManager, messageManager, databaseManager);
+        getCommand("crabpvpstats").setExecutor(adminCommand);
+        getCommand("crabpvpstats").setTabCompleter(new AdminTabCompleter());
 
         // 8. 注册 PlaceholderAPI 扩展
         if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {

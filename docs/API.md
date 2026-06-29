@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # 🧩 开发者 API · Developer API
 
@@ -6,7 +6,7 @@
 > *Integration guide & complete API reference*
 
 <p>
-  <a href="../README.md">🏠 主页 · Home</a> &nbsp;·&nbsp;
+  <a href="https://github.com/ItzLittleCrab/PvPStats/blob/master/README.md">🏠 主页 · Home</a> &nbsp;·&nbsp;
   <a href="README.md">📖 指南 · Guide</a> &nbsp;·&nbsp;
   <a href="config.md">⚙️ 配置 · Config</a> &nbsp;·&nbsp;
   <a href="placeholders.md">🔣 占位符 · Placeholders</a>
@@ -267,9 +267,9 @@ public void onStatsUpdate(StatsUpdateEvent event) {
 
 <div align="center">
 
-🏠 [返回主页 · Back to Home](../README.md) &nbsp;·&nbsp;
-📖 [指南 · Guide](README.md) &nbsp;·&nbsp;
-⚙️ [配置 · Config](config.md) &nbsp;·&nbsp;
-🔣 [占位符 · Placeholders](placeholders.md)
+🏠 [返回主页 · Back to Home](https://github.com/ItzLittleCrab/PvPStats/blob/master/README.md) &nbsp;·&nbsp;
+📖 [指南 · Guide](https://github.com/ItzLittleCrab/PvPStats/blob/master/README.md) &nbsp;·&nbsp;
+⚙️ [配置 · Config](https://github.com/ItzLittleCrab/PvPStats/blob/master/docs/config.md) &nbsp;·&nbsp;
+🔣 [占位符 · Placeholders](https://github.com/ItzLittleCrab/PvPStats/blob/master/docs/placeholders.md)
 
 </div>

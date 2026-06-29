@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # ⚙️ 配置参考 · Configuration Reference
 
@@ -6,7 +6,7 @@
 > *Complete reference for all config.yml options*
 
 <p>
-  <a href="../README.md">🏠 主页 · Home</a> &nbsp;·&nbsp;
+  <a href="https://github.com/ItzLittleCrab/PvPStats/blob/master/README.md">🏠 主页 · Home</a> &nbsp;·&nbsp;
   <a href="README.md">📖 指南 · Guide</a> &nbsp;·&nbsp;
   <a href="placeholders.md">🔣 占位符 · Placeholders</a> &nbsp;·&nbsp;
   <a href="API.md">🧩 API</a>
@@ -192,9 +192,9 @@ After editing `config.yml`, restart the server or reload the plugin:
 
 <div align="center">
 
-🏠 [返回主页 · Back to Home](../README.md) &nbsp;·&nbsp;
-📖 [指南 · Guide](README.md) &nbsp;·&nbsp;
-🔣 [占位符 · Placeholders](placeholders.md) &nbsp;·&nbsp;
-🧩 [API](API.md)
+🏠 [返回主页 · Back to Home](https://github.com/ItzLittleCrab/PvPStats/blob/master/README.md) &nbsp;·&nbsp;
+📖 [指南 · Guide](https://github.com/ItzLittleCrab/PvPStats/blob/master/README.md) &nbsp;·&nbsp;
+🔣 [占位符 · Placeholders](https://github.com/ItzLittleCrab/PvPStats/blob/master/docs/placeholders.md) &nbsp;·&nbsp;
+🧩 [API](https://github.com/ItzLittleCrab/PvPStats/blob/master/docs/API.md)
 
 </div>

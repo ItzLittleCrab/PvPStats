@@ -1,5 +1,5 @@
 name: CrabPvPStats
-version: '1.0.0'
+version: '1.1.1'
 main: cn.ngranked.crabpvpstats.Crabpvpstats
 api-version: '1.21'
 softdepend: [PlaceholderAPI]
@@ -9,6 +9,11 @@ commands:
     description: 查看 PvP 统计数据
     usage: /<command> [player]
     permission: crabpvpstats.stats
+  crabpvpstats:
+    description: CrabPvPStats 管理指令
+    usage: /<command> help|reload|<player> add|set <kills|deaths|killstreak> <value>
+    permission: crabpvpstats.admin
+    aliases: [cps]
 
 permissions:
   crabpvpstats.stats:

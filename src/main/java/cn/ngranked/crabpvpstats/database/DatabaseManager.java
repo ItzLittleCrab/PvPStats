@@ -76,6 +76,27 @@ public class DatabaseManager {
     }
 
     /**
+     * 通过玩家名称获取统计数据
+     *
+     * @param playerName 玩家名称
+     * @return 玩家的统计数据，如果未找到则返回 null
+     */
+    public PlayerStats getPlayerStatsByName(String playerName) {
+        String sql = "SELECT * FROM player_stats WHERE player_name = ?";
+        try (PreparedStatement ps = connection.prepareStatement(sql)) {
+            ps.setString(1, playerName);
+            try (ResultSet rs = ps.executeQuery()) {
+                if (rs.next()) {
+                    return mapResultSet(rs);
+                }
+            }
+        } catch (SQLException e) {
+            plugin.getLogger().log(Level.WARNING, "Failed to get stats for " + playerName, e);
+        }
+        return null;
+    }
+
+    /**
      * 保存玩家的统计数据（INSERT OR REPLACE）
      */
     public void savePlayerStats(PlayerStats stats) {

@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # 🔣 占位符 · Placeholders
 
@@ -6,7 +6,7 @@
 > *Complete PlaceholderAPI reference for CrabPvPStats*
 
 <p>
-  <a href="../README.md">🏠 主页 · Home</a> &nbsp;·&nbsp;
+  <a href="https://github.com/ItzLittleCrab/PvPStats/blob/master/README.md">🏠 主页 · Home</a> &nbsp;·&nbsp;
   <a href="README.md">📖 指南 · Guide</a> &nbsp;·&nbsp;
   <a href="config.md">⚙️ 配置 · Config</a> &nbsp;·&nbsp;
   <a href="API.md">🧩 API</a>
@@ -175,9 +175,9 @@ Suitable for **Scoreboard**, **TabList**, **chat plugins**, etc.:
 
 <div align="center">
 
-🏠 [返回主页 · Back to Home](../README.md) &nbsp;·&nbsp;
-📖 [指南 · Guide](README.md) &nbsp;·&nbsp;
-⚙️ [配置 · Config](config.md) &nbsp;·&nbsp;
-🧩 [API](API.md)
+🏠 [返回主页 · Back to Home](https://github.com/ItzLittleCrab/PvPStats/blob/master/README.md) &nbsp;·&nbsp;
+📖 [指南 · Guide](https://github.com/ItzLittleCrab/PvPStats/blob/master/README.md) &nbsp;·&nbsp;
+⚙️ [配置 · Config](https://github.com/ItzLittleCrab/PvPStats/blob/master/docs/config.md) &nbsp;·&nbsp;
+🧩 [API](https://github.com/ItzLittleCrab/PvPStats/blob/master/docs/API.md)
 
 </div>
