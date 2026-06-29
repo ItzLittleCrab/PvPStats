@@ -64,8 +64,8 @@ public class StatsExpansion extends PlaceholderExpansion {
 
         String lower = params.toLowerCase();
 
-        // 个人占位符
-        if (!lower.contains("_top_")) {
+        // 个人占位符（不含 _top_ 也不含 _topplayer_）
+        if (!(lower.contains("_top_") || lower.contains("_topplayer_"))) {
             if (player == null) return null;
 
             PlayerStats stats = statsManager.getStats(player.getUniqueId());
