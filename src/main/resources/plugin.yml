@@ -1,6 +1,6 @@
 name: CrabPvPStats
 version: '1.0.0'
-main: cn.ngranked.crabpvpstatus.Crabpvpstatus
+main: cn.ngranked.crabpvpstats.Crabpvpstats
 api-version: '1.21'
 softdepend: [PlaceholderAPI]
 

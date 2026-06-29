@@ -1,6 +1,6 @@
-package cn.ngranked.crabpvpstatus.api;
+package cn.ngranked.crabpvpstats.api;
 
-import cn.ngranked.crabpvpstatus.model.PlayerStats;
+import cn.ngranked.crabpvpstats.model.PlayerStats;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 import org.jetbrains.annotations.NotNull;

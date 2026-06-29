@@ -1,6 +1,6 @@
-package cn.ngranked.crabpvpstatus.database;
+package cn.ngranked.crabpvpstats.database;
 
-import cn.ngranked.crabpvpstatus.model.PlayerStats;
+import cn.ngranked.crabpvpstats.model.PlayerStats;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.sql.*;

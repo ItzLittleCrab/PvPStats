@@ -1,6 +1,6 @@
-package cn.ngranked.crabpvpstatus;
+package cn.ngranked.crabpvpstats;
 
-import cn.ngranked.crabpvpstatus.api.CrabPvPStatsAPI;
+import cn.ngranked.crabpvpstats.api.CrabPvPStatsAPI;
 
 /**
  * CrabPvPStats API 提供者。

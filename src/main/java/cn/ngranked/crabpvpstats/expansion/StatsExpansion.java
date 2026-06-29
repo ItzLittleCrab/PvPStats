@@ -1,7 +1,7 @@
-package cn.ngranked.crabpvpstatus.expansion;
+package cn.ngranked.crabpvpstats.expansion;
 
-import cn.ngranked.crabpvpstatus.manager.StatsManager;
-import cn.ngranked.crabpvpstatus.model.PlayerStats;
+import cn.ngranked.crabpvpstats.manager.StatsManager;
+import cn.ngranked.crabpvpstats.model.PlayerStats;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import org.bukkit.OfflinePlayer;
 import org.jetbrains.annotations.NotNull;

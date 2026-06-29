@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # ⚙️ 配置参考 · Configuration Reference
 

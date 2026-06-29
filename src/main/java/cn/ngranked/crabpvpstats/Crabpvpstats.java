@@ -1,18 +1,18 @@
-package cn.ngranked.crabpvpstatus;
+package cn.ngranked.crabpvpstats;
 
-import cn.ngranked.crabpvpstatus.api.impl.CrabPvPStatsAPIImpl;
-import cn.ngranked.crabpvpstatus.command.StatsCommand;
-import cn.ngranked.crabpvpstatus.config.ConfigManager;
-import cn.ngranked.crabpvpstatus.config.MessageManager;
-import cn.ngranked.crabpvpstatus.database.DatabaseManager;
-import cn.ngranked.crabpvpstatus.expansion.StatsExpansion;
-import cn.ngranked.crabpvpstatus.gui.StatsGUI;
-import cn.ngranked.crabpvpstatus.listener.PvPListener;
-import cn.ngranked.crabpvpstatus.manager.StatsManager;
+import cn.ngranked.crabpvpstats.api.impl.CrabPvPStatsAPIImpl;
+import cn.ngranked.crabpvpstats.command.StatsCommand;
+import cn.ngranked.crabpvpstats.config.ConfigManager;
+import cn.ngranked.crabpvpstats.config.MessageManager;
+import cn.ngranked.crabpvpstats.database.DatabaseManager;
+import cn.ngranked.crabpvpstats.expansion.StatsExpansion;
+import cn.ngranked.crabpvpstats.gui.StatsGUI;
+import cn.ngranked.crabpvpstats.listener.PvPListener;
+import cn.ngranked.crabpvpstats.manager.StatsManager;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class Crabpvpstatus extends JavaPlugin {
+public final class Crabpvpstats extends JavaPlugin {
 
     private ConfigManager configManager;
     private MessageManager messageManager;

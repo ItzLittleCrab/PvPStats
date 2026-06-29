@@ -1,9 +1,9 @@
-package cn.ngranked.crabpvpstatus.api.impl;
+package cn.ngranked.crabpvpstats.api.impl;
 
-import cn.ngranked.crabpvpstatus.api.CrabPvPStatsAPI;
-import cn.ngranked.crabpvpstatus.api.StatsUpdateEvent;
-import cn.ngranked.crabpvpstatus.database.DatabaseManager;
-import cn.ngranked.crabpvpstatus.model.PlayerStats;
+import cn.ngranked.crabpvpstats.api.CrabPvPStatsAPI;
+import cn.ngranked.crabpvpstats.api.StatsUpdateEvent;
+import cn.ngranked.crabpvpstats.database.DatabaseManager;
+import cn.ngranked.crabpvpstats.model.PlayerStats;
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.plugin.java.JavaPlugin;

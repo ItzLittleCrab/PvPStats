@@ -1,8 +1,8 @@
-package cn.ngranked.crabpvpstatus.gui;
+package cn.ngranked.crabpvpstats.gui;
 
-import cn.ngranked.crabpvpstatus.config.MessageManager;
-import cn.ngranked.crabpvpstatus.manager.StatsManager;
-import cn.ngranked.crabpvpstatus.model.PlayerStats;
+import cn.ngranked.crabpvpstats.config.MessageManager;
+import cn.ngranked.crabpvpstats.manager.StatsManager;
+import cn.ngranked.crabpvpstats.model.PlayerStats;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;

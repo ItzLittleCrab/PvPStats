@@ -1,4 +1,4 @@
-package cn.ngranked.crabpvpstatus.config;
+package cn.ngranked.crabpvpstats.config;
 
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.YamlConfiguration;

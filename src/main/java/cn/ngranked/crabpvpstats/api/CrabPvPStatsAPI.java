@@ -1,6 +1,6 @@
-package cn.ngranked.crabpvpstatus.api;
+package cn.ngranked.crabpvpstats.api;
 
-import cn.ngranked.crabpvpstatus.model.PlayerStats;
+import cn.ngranked.crabpvpstats.model.PlayerStats;
 
 import java.util.List;
 import java.util.UUID;
@@ -9,7 +9,7 @@ import java.util.concurrent.CompletableFuture;
 /**
  * CrabPvPStats 公开 API 接口。
  * <p>
- * 其他插件可通过 {@link cn.ngranked.crabpvpstatus.CrabPvPStatsProvider#getAPI()} 获取此接口实例。
+ * 其他插件可通过 {@link cn.ngranked.crabpvpstats.CrabPvPStatsProvider#getAPI()} 获取此接口实例。
  */
 public interface CrabPvPStatsAPI {
 

@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 # 🧩 开发者 API · Developer API
 
@@ -100,7 +100,7 @@ List<PlayerStats> topKs = api.getTopKillstreak(10);     // 连杀榜
 #### 监听统计更新事件
 
 ```java
-import cn.ngranked.crabpvpstatus.api.StatsUpdateEvent;
+import cn.ngranked.crabpvpstats.api.StatsUpdateEvent;
 
 @EventHandler
 public void onStatsUpdate(StatsUpdateEvent event) {
@@ -172,8 +172,8 @@ Add to your `pom.xml`:
 #### Get API Instance
 
 ```java
-import cn.ngranked.crabpvpstatus.CrabPvPStatsProvider;
-import cn.ngranked.crabpvpstatus.api.CrabPvPStatsAPI;
+import cn.ngranked.crabpvpstats.CrabPvPStatsProvider;
+import cn.ngranked.crabpvpstats.api.CrabPvPStatsAPI;
 
 CrabPvPStatsAPI api = CrabPvPStatsProvider.getAPI();
 if (api != null && api.isEnabled()) {
@@ -222,7 +222,7 @@ List<PlayerStats> topKs = api.getTopKillstreak(10);     // Killstreak leaderboar
 #### Listen for Stats Update Events
 
 ```java
-import cn.ngranked.crabpvpstatus.api.StatsUpdateEvent;
+import cn.ngranked.crabpvpstats.api.StatsUpdateEvent;
 
 @EventHandler
 public void onStatsUpdate(StatsUpdateEvent event) {

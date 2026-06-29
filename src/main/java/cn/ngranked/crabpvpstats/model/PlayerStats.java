@@ -1,4 +1,4 @@
-package cn.ngranked.crabpvpstatus.model;
+package cn.ngranked.crabpvpstats.model;
 
 import java.util.UUID;
 

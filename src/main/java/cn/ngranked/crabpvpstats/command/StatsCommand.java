@@ -1,9 +1,9 @@
-package cn.ngranked.crabpvpstatus.command;
+package cn.ngranked.crabpvpstats.command;
 
-import cn.ngranked.crabpvpstatus.config.ConfigManager;
-import cn.ngranked.crabpvpstatus.config.MessageManager;
-import cn.ngranked.crabpvpstatus.gui.StatsGUI;
-import cn.ngranked.crabpvpstatus.manager.StatsManager;
+import cn.ngranked.crabpvpstats.config.ConfigManager;
+import cn.ngranked.crabpvpstats.config.MessageManager;
+import cn.ngranked.crabpvpstats.gui.StatsGUI;
+import cn.ngranked.crabpvpstats.manager.StatsManager;
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.command.Command;
