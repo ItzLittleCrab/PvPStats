@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Java-21-%23ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java 21"/>
   <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
   <img src="https://img.shields.io/badge/PAPI-2.11%2B-%23FF6F00?style=flat-square" alt="PlaceholderAPI"/>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"/>
+  <img src="https://img.shields.io/badge/License-GUN-green?style=flat-square" alt="License"/>
   <img src="https://img.shields.io/badge/version-1.1.1-blue?style=flat-square" alt="Version"/>
   <a href="https://modrinth.com/plugin/crab-pvpstats"><img src="https://img.shields.io/badge/Download-Modrinth-%2300D084?style=flat-square&logo=modrinth" alt="Modrinth"/></a>
 </p>
